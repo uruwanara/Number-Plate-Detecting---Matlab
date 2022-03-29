@@ -1,4 +1,4 @@
-im = imread('Number Plate Images/image3.png');
+im = imread('Samples/img (1).png');
 subplot(4,2,1);
 imshow(im);
 ipp(im,2);
@@ -39,7 +39,8 @@ function ipp(image,pos)
     image = bwareaopen(~image, 500);
     
      [h, w] = size(image);
-   % imshow(image);
+    subplot(4,2,pos);
+    imshow(image);
     
     properties=regionprops(image,'BoundingBox','Area', 'Image');
     count = numel(properties);
