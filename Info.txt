@@ -1,0 +1,8 @@
+2018CS140
+18001408
+A.K.U. Ruwanara
+
+Automatic Vehicle number plate detection and recognition Module
+
+This project is developed by referring 
+	https://circuitdigest.com/tutorial/vehicle-number-plate-detection-using-matlab-and-image-processing
